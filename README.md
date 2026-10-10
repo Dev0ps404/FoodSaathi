@@ -149,3 +149,20 @@ Or run them in separate terminals:
 - `PUT /api/deliveries/:id/status` — Advance status (`Accepted` ➔ `Picked Up` ➔ `Delivered`)
 - `POST /api/simulator/run` — Execute dynamic parametric food rescue simulation
 - `GET /api/analytics/summary` — Community impact and carbon savings audit
+
+---
+
+## 🤝 Contributing to FoodSaathi
+
+We welcome contributions that help improve FoodSaathi.
+
+### Contribution Process
+1. Create a separate branch for your changes.
+2. Make your changes and test them.
+3. Write a clear commit message.
+4. Submit a Pull Request for review.
+
+### Best Practices
+- Keep code clean and readable.
+- Test changes before submitting them.
+- Never commit API keys or secrets.
