@@ -1,0 +1,27 @@
+{
+  "name": "foodrescue-ai",
+  "version": "1.0.0",
+  "description": "AI-Powered Smart Food Donation Platform & Rescue Network",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && npm run dev",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "seed": "cd backend && npm run seed"
+  },
+  "keywords": [
+    "food-rescue",
+    "ai",
+    "sustainability",
+    "zero-hunger",
+    "react",
+    "nodejs",
+    "leaflet"
+  ],
+  "author": "FoodRescue AI Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
