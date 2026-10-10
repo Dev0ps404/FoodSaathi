@@ -1,4 +1,4 @@
-# 🌿 FoodRescue AI — AI-Powered Food Rescue Network
+# 🌿 FoodRescue AI —: AI-Powered Food Rescue Network
 
 > **"Rescue Food. Reduce Waste. Feed Communities."**
 > A modern , responsive, and full-stack web platform connecting Food Donors (Hotels, Caterers, Messes), Partner NGOs (Shelters, Food Banks), and Volunteer Couriers using explainable AI triage, route optimization, and a dynamic real-time Food Rescue Simulator.
