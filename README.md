@@ -135,9 +135,9 @@ Or run them in separate terminals:
 
 ## 📡 REST API Summary
 
-- `POST /api/auth/register` — Register user with specified role
+- `POST /api/auth/register` — Register user with specified role.
 - `POST /api/auth/login` — Authenticate & receive JWT
-- `GET /api/donations` — List all donations with category/urgency/status filters
+- `GET /api/donations` — List all donations with category/urgency/status filters.
 - `POST /api/donations` — Create new food surplus batch (AI priority triage)
 - `GET /api/donations/:id/matches` — Compute top-3 AI matched NGOs
 - `GET /api/ngos` — List partner NGOs and receiving capacity
