@@ -1,5 +1,4 @@
-// Food Rescue Simulator Engine Controller
-// Deterministic and parametric allocation algorithm for hackathon demo
+
 
 const runSimulation = async (req, res) => {
   try {
@@ -12,7 +11,7 @@ const runSimulation = async (req, res) => {
     const categories = ['Cooked Meals', 'Bakery', 'Produce', 'Dairy', 'Packaged Goods'];
     const urgencyLevels = ['Critical (<3h)', 'High (3-6h)', 'Medium (6-12h)', 'Low (>12h)'];
 
-    // 1. Generate Simulated Donor Batches
+    // 1. Generated Simulated Donor Batches
     const batches = [];
     const avgBatchSize = Math.max(30, Math.round(surplusMeals / (donorLocations * 2.5)));
     let remainingToGenerate = surplusMeals;
