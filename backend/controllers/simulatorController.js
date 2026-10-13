@@ -89,7 +89,7 @@ const runSimulation = async (req, res) => {
       // Find best NGO candidate with remaining demand
       const availableNGO = simulatedNGOs.find(n => n.remainingDemand > 0);
 
-      // Find available volunteer with capacity
+    
       const availableVolunteer = simulatedVolunteers.find(v => v.deliveriesDone < 4);
 
       if (availableNGO && availableVolunteer) {
